@@ -52,3 +52,18 @@ for (let i = 0; i <= 2; i = i + 1) {
   smoothly(phrase, 'textContent', phrases[i].text); 
   smoothly(image, 'src', phrases[i].image); 
 } 
+
+anime({
+    targets: '.logo',
+    translateX: 150,       // сместить на 120px вправо
+    duration: 1800,
+    easing: 'easeInSine',
+});
+
+anime({
+    targets: '.button',
+    translateX: -170, 
+    translateY: 40,      // сместить на 120px вправо
+    duration: 1800,
+    easing: 'easeInSine',
+});
