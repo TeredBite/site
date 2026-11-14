@@ -62,8 +62,8 @@ anime({
 
 anime({
     targets: '.button',
-    translateX: -170, 
-    translateY: 40,      // сместить на 120px вправо
+    translateX: -165, 
+    translateY: 43,      // сместить на 120px вправо
     duration: 1800,
     easing: 'easeInSine',
 });
